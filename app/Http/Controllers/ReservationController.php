@@ -62,19 +62,19 @@ class ReservationController extends Controller
             'customer_name.required' => 'Tên khách hàng là bắt buộc.',
             'customer_name.string' => 'Tên khách hàng phải là chuỗi ký tự.',
             'customer_name.max' => 'Tên khách hàng không được vượt quá :max ký tự.',
-            
+
             'phone.required' => 'Số điện thoại là bắt buộc.',
             'phone.regex' => 'Số điện thoại không hợp lệ. Phải có 8-15 chữ số (có thể bắt đầu bằng +).',
-            
+
             'party_size.required' => 'Số người là bắt buộc.',
             'party_size.integer' => 'Số người phải là một số nguyên.',
             'party_size.min' => 'Số người phải ít nhất là :min.',
             'party_size.max' => 'Số người không được vượt quá :max.',
-            
+
             'reserved_at.required' => 'Thời gian đặt bàn là bắt buộc.',
             'reserved_at.date' => 'Thời gian đặt bàn không hợp lệ.',
             'reserved_at.after_or_equal' => 'Thời gian đặt bàn không được ở trong quá khứ.',
-            
+
             'status.required' => 'Trạng thái là bắt buộc.',
             'status.in' => 'Trạng thái không hợp lệ. Phải là một trong: pending, confirmed, seated, canceled.',
         ]);
@@ -109,19 +109,19 @@ class ReservationController extends Controller
             'customer_name.required' => 'Tên khách hàng là bắt buộc.',
             'customer_name.string' => 'Tên khách hàng phải là chuỗi ký tự.',
             'customer_name.max' => 'Tên khách hàng không được vượt quá :max ký tự.',
-            
+
             'phone.required' => 'Số điện thoại là bắt buộc.',
             'phone.regex' => 'Số điện thoại không hợp lệ. Phải có 8-15 chữ số (có thể bắt đầu bằng +).',
-            
+
             'party_size.required' => 'Số người là bắt buộc.',
             'party_size.integer' => 'Số người phải là một số nguyên.',
             'party_size.min' => 'Số người phải ít nhất là :min.',
             'party_size.max' => 'Số người không được vượt quá :max.',
-            
+
             'reserved_at.required' => 'Thời gian đặt bàn là bắt buộc.',
             'reserved_at.date' => 'Thời gian đặt bàn không hợp lệ.',
             'reserved_at.after_or_equal' => 'Thời gian đặt bàn không được ở trong quá khứ.',
-            
+
             'status.required' => 'Trạng thái là bắt buộc.',
             'status.in' => 'Trạng thái không hợp lệ. Phải là một trong: pending, confirmed, seated, canceled.',
         ]);
